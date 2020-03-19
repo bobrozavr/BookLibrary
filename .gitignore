@@ -1,0 +1,5 @@
+# Default ignored files
+/.idea/**
+src/test
+target
+.iml

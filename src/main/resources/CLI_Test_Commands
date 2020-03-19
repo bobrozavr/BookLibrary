@@ -1,0 +1,15 @@
+### Use these command to test the application
+
+curl -X GET  http://localhost:8080/api/rest/book -H 'Content-type:application/json'  && echo
+curl -X POST http://localhost:8080/api/rest/book -H 'Content-type:application/json' -d '{"title": "Java", "author": "Bruce Eckel", "description": "Thinking in Java"}'  && echo
+curl -X GET  http://localhost:8080/api/rest/book -H 'Content-type:application/json'  && echo
+curl -X POST http://localhost:8080/api/rest/book -H 'Content-type:application/json' -d '{"title": "Java", "author": "Bruce Eckel", "description": "Thinking in Java"}'  && echo
+curl -X GET  http://localhost:8080/api/rest/book -H 'Content-type:application/json'  && echo
+curl -X POST http://localhost:8080/api/rest/book -H 'Content-type:application/json' -d '{"title": "Java", "author": "Herbert Schildt", "description": "Complete Reference"}'  && echo
+curl -X GET  http://localhost:8080/api/rest/book -H 'Content-type:application/json'  && echo
+curl -X PUT  http://localhost:8080/api/rest/book/2 -H 'Content-type:application/json' -d '{"title": "Unix and Linux Administration", "author": "Evi Nemeth"}'  && echo
+curl -X GET  http://localhost:8080/api/rest/book -H 'Content-type:application/json'  && echo
+curl -X DELETE http://localhost:8080/api/rest/book/1 -H 'Content-type:application/json' && echo
+curl -X GET  http://localhost:8080/api/rest/book -H 'Content-type:application/json'  && echo
+curl -X DELETE http://localhost:8080/api/rest/book/5 -H 'Content-type:application/json' && echo
+curl -X PUT  http://localhost:8080/api/rest/book/2 -H 'Content-type:application/json' -d '{"title": "Unix and Linux Administration", "author": "Evi Nemeth"}'  && echo
